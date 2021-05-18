@@ -1,0 +1,28 @@
+
+
+footer {
+	
+	background-color: #E5D0CC;
+	font-family: 'Nunito Sans', sans-serif;
+	  text-align: center;
+	  p.round1 
+		border: 2px #E5D0CC;
+		border-radius: 8px;
+
+	
+}
+
+form { text-align: center; 
+		font-family: 'Halant', serif; 
+		
+}
+
+
+
+
+div { font-family: 'Nunito Sans', sans-serif;
+background-color: #E5D0CC;
+p.round1 
+		border: 2px #E5D0CC;
+		border-radius: 8px;
+}
