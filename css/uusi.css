@@ -18,7 +18,7 @@ form { text-align: center;
 }
 
 
-div
+.container-fluid
 		{ font-family: 'Nunito Sans', sans-serif;
 		background-color: #E5D0CC;
 		text-align: center;
@@ -28,7 +28,24 @@ div
 		
 }
 
-main {
-	
-	width: 80%;
-}
+p { text-align:center;
+font-family: 'Halant', serif;
+	  margin-top: 100px;
+	  margin-bottom: 100px;
+	  margin-right: 150px;
+	  margin-left: 80px;
+
+} 
+.img-container {
+        text-align: center;
+        display: block;
+      }
+
+li { 
+text-align:center;
+} 
+
+h2,h3,h4 { 
+text-align:center;
+} 
+
