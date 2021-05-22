@@ -10,6 +10,9 @@ footer {
 		border-radius: 10px;
 		margin-left: 10px;
 		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		color: black;
 		
 }
 
@@ -21,13 +24,18 @@ form { text-align: center;
 
 
 	
-.container-fluid
+.navbar
 		{ font-family: 'Nunito Sans', sans-serif;
 		background-color: #E5D0CC;
 		text-align: center;
 		p.round1 
 		border: 2px #E5D0CC;
-		border-radius: 8px;		
+		border-radius: 8px;	
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
 }
 
 
@@ -65,3 +73,65 @@ font-family: 'Halant', serif;
 text-align:center;
 } 
 
+
+
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #172121;
+  color: white;
+}
+
+.twitter {
+  background: #444554;
+  color: white;
+}
+
+.google {
+  background: #7F7B82;
+  color: white;
+}
+
+.linkedin {
+  background: #BFACB5;
+  color: white;
+}
+
+.youtube {
+  background: #E5D0CC;
+  color: white;
+}
