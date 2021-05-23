@@ -12,7 +12,7 @@ footer {
 		margin-right: 10px;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		color: black;
+		color: #444554;
 		
 }
 
@@ -73,7 +73,20 @@ font-family: 'Halant', serif;
 text-align:center;
 } 
 
+.relative {
+  margin: 7%;
+  
+}
 
+a:link {
+  color: #7F7B82;
+
+
+}
+
+a:visited {
+  color: #BFACB5;
+}
 
 
 .sidebar {
@@ -135,3 +148,18 @@ text-align:center;
   background: #E5D0CC;
   color: white;
 }
+
+.left, .right {
+  float: left;
+  width: 20%; 
+}
+
+.main {
+  float: left;
+  width: 60%; 
+}
+
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; 
